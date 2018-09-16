@@ -48,7 +48,7 @@ dynamodbClient.describeLimits()
   .promise()
   .then(result => {
     console.log(result);
-    mock.restore(AWS, 'dynamodb', 'version', 'batchGetItem');
+    mock.restore(AWS, 'dynamodb', '2012-08-10', 'describeLimits');
   }).catch(err => console.log(err));
 
 ```
