@@ -7,9 +7,10 @@ const awsMock = require('../');
 
 const config = {
   apiVersion: '2012-08-10',
-  timeout: 5000,
   endpoint: 'http://127.0.0.1:8000',
   region: 'localhost',
+  accessKeyId: 'accessKeyId',
+  secretAccessKey: 'secretAccessKey',
 };
 
 describe('test/aws-sdk.test.js', () => {
