@@ -1,6 +1,6 @@
 {
   "name": "aws-sdk-mock-mate",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Mock tool for aws sdk.",
   "main": "lib/index.js",
   "keywords": [
